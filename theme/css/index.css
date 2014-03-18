@@ -1,0 +1,99 @@
+.body {
+  background:url('../images/home.jpg') #3E3A39;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.single-body {
+  background:url('../images/home.jpg') #3E3A39;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#article_box {
+  margin-top: 70px;
+  position: relative;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#single_box {
+  margin-top: 120px;
+  position: relative;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  width:780px;
+}
+
+.small {
+  height:100%;
+  width:100%;
+}
+
+.header-single {
+  width:1280px;
+}
+
+li {
+  list-style-type:none;
+}
+
+#slider {
+  position: relative;
+}
+
+.go2home {
+  position: absolute;
+  top:-80px;
+  left:110%;
+}
+
+.go2about {
+  position: fixed;
+  top:50%;
+  left:90%;
+}
+
+.connect_us {
+  position: fixed;
+  top:60%;
+  left:90%;
+}
+
+.homelogo {
+  position:fixed;
+  top:40%;
+  left:5%;
+}
+
+.homelogo img {
+  width:10%;
+  height:10%;
+}
+
+.stuff {
+  position:fixed;
+  top:70%;
+  left:5%;
+}
+
+.search {
+  position: fixed;
+  top: 80%;
+  left: 9%;
+}
+
+.search img {
+  width: 80%;
+}
