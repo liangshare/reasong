@@ -6,7 +6,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 .single-body {
@@ -20,20 +19,27 @@
 }
 
 #article_box {
-  margin-top: 70px;
+  margin-top: 52px;
   position: relative;
   z-index: 2;
+  width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #single_box {
-  margin-top: 120px;
+  margin-top: 48px;
   position: relative;
   z-index: 2;
   margin-left: auto;
   margin-right: auto;
-  width:780px;
+  width:820px;
+}
+
+.single_box .single_article {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 100px;
 }
 
 .small {
@@ -96,4 +102,40 @@ li {
 
 .search img {
   width: 80%;
+}
+
+h1 {
+  font-weight:normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size:25px;
+}
+
+h2 {
+  font-weight:normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  width: 500px;
+  font-weight:normal;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-size:16px;
+}
+
+.quote_left {
+  position: absolute;
+  font-weight:normal;
+  font-size:40px;
+  left: -20px;
+}
+
+.quote_right {
+  position: absolute;
+  font-weight:normal;
+  font-size:40px;
+  left: 500px;
 }

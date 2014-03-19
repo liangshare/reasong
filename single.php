@@ -21,17 +21,19 @@ get_header("single");
     'post_parent' => $post->ID
   ); 
 ?>
-<article class="single_box", style="background-color:<?php echo get_post_meta($post->ID, "background", true); ?>">
+<div class="single_box", style="background-color:<?php echo get_post_meta($post->ID, "background", true); ?>">
   <div id="slider">
 
   <a class="go2home" href="<?php echo home_url(); ?>" ><img src="<?php bloginfo('template_url'); ?>/images/go2home.png"></a>
   </div>
 
-  <p> <?php the_title(); ?> </p>
-  <p> <?php the_author(); ?> </p>
-  <p><?php echo get_post_meta($post->ID, "sort_des", true); ?></p>
-  <div> <?php the_content(); ?> </div>
-</article>
+  <article class="single_article">
+    <h1> <?php the_title(); ?> </h1>
+    <h2> 撰文|&nbsp; <?php the_author(); ?> </h2>
+    <h3><span class="quote_left">“</span><?php echo get_post_meta($post->ID, "sort_des", true); ?><span class="quote_right">”</span></h3>
+    <div> <?php the_content(); ?> </div>
+  </article>
+</div>
 
 <?php endwhile; ?>
 
