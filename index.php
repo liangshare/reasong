@@ -1,5 +1,5 @@
 <?php get_header(); ?> 
-      <div>
+      <div style="height:0px;">
       <a class="go2about" href=""><img src="<?php bloginfo('template_url'); ?>/images/go2about.png"></a>
       <a class="connect_us" href=""><img src="<?php bloginfo('template_url'); ?>/images/connect_us.png"></a>
       <a class="homelogo" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png"></a>
